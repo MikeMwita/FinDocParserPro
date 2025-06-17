@@ -9,7 +9,7 @@ restore:
 	dotnet restore $(SOLUTION)
 
 build:
-	dotnet build $(SOLUTION)
+	dotnet build $(SOLUTION) src/FinDoc.Tests/obj/Debug/net8.0/FinDoc.Tests.sourcelink.json
 
 run:
 	dotnet run --project $(API_PROJECT)

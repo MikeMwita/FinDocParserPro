@@ -20,18 +20,12 @@
           "FinDoc.Domain": "1.0.0"
         },
         "runtime": {
-          "FinDoc.Application.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "FinDoc.Application.dll": {}
         }
       },
       "FinDoc.Domain/1.0.0": {
         "runtime": {
-          "FinDoc.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "FinDoc.Domain.dll": {}
         }
       }
     }

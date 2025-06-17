@@ -9,3 +9,10 @@
 /home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/obj/Debug/net8.0/refint/FinDoc.Infrastructure.dll
 /home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/obj/Debug/net8.0/FinDoc.Infrastructure.pdb
 /home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/obj/Debug/net8.0/ref/FinDoc.Infrastructure.dll
+/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/bin/Debug/net8.0/FinDoc.Application.dll
+/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/bin/Debug/net8.0/FinDoc.Domain.dll
+/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/bin/Debug/net8.0/FinDoc.Application.pdb
+/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/bin/Debug/net8.0/FinDoc.Domain.pdb
+/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/obj/Debug/net8.0/FinDoc.Infrastructure.csproj.AssemblyReference.cache
+/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/obj/Debug/net8.0/FinDoc.Infrastructure.sourcelink.json
+/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/obj/Debug/net8.0/FinDoc.Infrastructure.csproj.CopyComplete
