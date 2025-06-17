@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinDoc.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b599eaf2cb106276392d8102b00268351d951f00")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinDoc.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinDoc.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
