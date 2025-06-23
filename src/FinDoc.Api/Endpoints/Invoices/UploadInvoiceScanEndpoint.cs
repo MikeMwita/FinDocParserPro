@@ -1,11 +1,10 @@
-
 using FinDoc.Application.Invoices.Commands.UploadScan;
 
 namespace FinDoc.Api.Endpoints.Invoices;
 
 public static class UploadInvoiceScanEndpoint
 {
-    public static void MapUploadScan(this IEndpointRouteBuilder app)
+    public static void MapUploadScan(this WebApplication app)
     {
         app.MapPost("/invoices/upload", async (
             IFormFile file,

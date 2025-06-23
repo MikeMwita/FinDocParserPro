@@ -5,8 +5,8 @@
 /home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/obj/Debug/net8.0/FinDoc.Domain.AssemblyInfoInputs.cache
 /home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/obj/Debug/net8.0/FinDoc.Domain.AssemblyInfo.cs
 /home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/obj/Debug/net8.0/FinDoc.Domain.csproj.CoreCompileInputs.cache
+/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/obj/Debug/net8.0/FinDoc.Domain.sourcelink.json
 /home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/obj/Debug/net8.0/FinDoc.Domain.dll
 /home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/obj/Debug/net8.0/refint/FinDoc.Domain.dll
 /home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/obj/Debug/net8.0/FinDoc.Domain.pdb
 /home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/obj/Debug/net8.0/ref/FinDoc.Domain.dll
-/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/obj/Debug/net8.0/FinDoc.Domain.sourcelink.json
