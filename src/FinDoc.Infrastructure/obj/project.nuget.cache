@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "j/33ehmM1hXbIywEDly8wR0VnBk239ht+C0b+rhXuH0cPsITeKs8/IkDyYDHuDopLbB7AsRAMvP0UFLBlo7ATA==",
+  "dgSpecHash": "5MT+NyMKI7I0C2RapPHsqZ3LOPQSQ4UOEw4Erwrn4HjMIXG/sbvzpkyt0lcDFjwsWG11LQ5S+t3+fTAEQuGPVQ==",
   "success": true,
   "projectFilePath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/FinDoc.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/mike/.nuget/packages/fluentresults/3.16.0/fluentresults.3.16.0.nupkg.sha512",
+    "/home/mike/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.3.0/microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "/home/mike/.nuget/packages/microsoft.aspnetcore.http.features/2.3.0/microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "/home/mike/.nuget/packages/microsoft.extensions.logging.abstractions/2.1.1/microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+    "/home/mike/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/mike/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
+    "/home/mike/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/home/mike/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "/home/mike/.nuget/packages/tesseract/5.2.0/tesseract.5.2.0.nupkg.sha512"
+  ],
   "logs": []
 }

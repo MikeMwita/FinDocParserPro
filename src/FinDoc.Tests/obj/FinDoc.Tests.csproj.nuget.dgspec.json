@@ -4,14 +4,81 @@
     "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Tests/FinDoc.Tests.csproj": {}
   },
   "projects": {
-    "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Tests/FinDoc.Tests.csproj": {
+    "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Application/FinDoc.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Tests/FinDoc.Tests.csproj",
-        "projectName": "FinDoc.Tests",
-        "projectPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Tests/FinDoc.Tests.csproj",
+        "projectUniqueName": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Application/FinDoc.Application.csproj",
+        "projectName": "FinDoc.Application",
+        "projectPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Application/FinDoc.Application.csproj",
         "packagesPath": "/home/mike/.nuget/packages/",
-        "outputPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Tests/obj/",
+        "outputPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mike/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/FinDoc.Domain.csproj": {
+                "projectPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/FinDoc.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.16.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/FinDoc.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/FinDoc.Domain.csproj",
+        "projectName": "FinDoc.Domain",
+        "projectPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/FinDoc.Domain.csproj",
+        "packagesPath": "/home/mike/.nuget/packages/",
+        "outputPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mike/.nuget/NuGet/NuGet.Config"
@@ -37,10 +104,143 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/FinDoc.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/FinDoc.Infrastructure.csproj",
+        "projectName": "FinDoc.Infrastructure",
+        "projectPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/FinDoc.Infrastructure.csproj",
+        "packagesPath": "/home/mike/.nuget/packages/",
+        "outputPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mike/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Application/FinDoc.Application.csproj": {
+                "projectPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Application/FinDoc.Application.csproj"
+              },
+              "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/FinDoc.Domain.csproj": {
+                "projectPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/FinDoc.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Tesseract": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Tests/FinDoc.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Tests/FinDoc.Tests.csproj",
+        "projectName": "FinDoc.Tests",
+        "projectPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Tests/FinDoc.Tests.csproj",
+        "packagesPath": "/home/mike/.nuget/packages/",
+        "outputPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mike/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Application/FinDoc.Application.csproj": {
+                "projectPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Application/FinDoc.Application.csproj"
+              },
+              "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/FinDoc.Domain.csproj": {
+                "projectPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Domain/FinDoc.Domain.csproj"
+              },
+              "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/FinDoc.Infrastructure.csproj": {
+                "projectPath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Infrastructure/FinDoc.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "FluentAssertions": {
               "target": "Package",
               "version": "[8.3.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",

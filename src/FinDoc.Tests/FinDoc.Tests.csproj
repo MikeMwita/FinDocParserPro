@@ -12,6 +12,7 @@
   <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
     <PackageReference Include="FluentAssertions" Version="8.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
     <PackageReference Include="Moq" Version="4.20.72" />
     <PackageReference Include="xunit" Version="2.5.3" />
@@ -20,6 +21,12 @@
 
   <ItemGroup>
     <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinDoc.Application\FinDoc.Application.csproj" />
+    <ProjectReference Include="..\FinDoc.Domain\FinDoc.Domain.csproj" />
+    <ProjectReference Include="..\FinDoc.Infrastructure\FinDoc.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

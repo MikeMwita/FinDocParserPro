@@ -1,5 +1,7 @@
 
 using FluentResults;
+using FinDoc.Application.Interfaces;
+using FinDoc.Application.Common;
 
 namespace FinDoc.Application.Invoices.Commands.UploadScan;
 
@@ -18,6 +20,8 @@ public class UploadScanHandler
             return Result.Fail("Uploaded file is empty or null");
 
         var extractedText = await _ocr.ExtractTextAsync(request.File);
-        return Result.Ok(HttpDataResponse.Success(new { text = extractedText }));
+        var response = new HttpDataResponse { Success = true, Data = extractedText };
+
+        return Result.Ok(response);
     }
 }
