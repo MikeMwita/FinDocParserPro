@@ -63,7 +63,7 @@ We intentionally avoid MediatR initially for simplicity. After  the project scal
 
 
 ### Features
-- [ ] Upload PDF/PNG/JPEG scans of financial documents
+- [x] Upload PDF/PNG/JPEG scans of financial documents
 - [ ] Extract text using Tesseract OCR
 - [ ] Regex-based field extraction (e.g., invoice number, date, total)
 - [ ] Export as CSV/JSON

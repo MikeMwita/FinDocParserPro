@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fJGf/LdKS+ZAO1UGh4IJCA75mMd5k4gcysD7N0Y67n2/QCU+vtgrHAfWGyeKS1p9Q7jRiiMwAmrrRrGb+VtGGA==",
+  "dgSpecHash": "mdDBeyBPlcHoXIsgG9U4XwSRWv8drMFHVk9qsqmy9XoTlXq9iXYTldA9novXc0Jfr80qIYUmHHNfKhkSTd5NuA==",
   "success": true,
   "projectFilePath": "/home/mike/Desktop/github/FinDocParserPro/src/FinDoc.Tests/FinDoc.Tests.csproj",
   "expectedPackageFiles": [
