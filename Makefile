@@ -9,16 +9,27 @@ restore:
 	dotnet restore $(SOLUTION)
 
 build:
-	dotnet build $(SOLUTION) src/FinDoc.Tests/obj/Debug/net8.0/FinDoc.Tests.sourcelink.json
+	dotnet build $(SOLUTION) --no-restore
 
 run:
 	dotnet run --project $(API_PROJECT)
 
 test:
-	dotnet test
+	dotnet test $(SOLUTION) --no-build
 
 watch:
 	dotnet watch --project $(API_PROJECT) run
 
 clean:
 	dotnet clean $(SOLUTION)
+
+lint:
+	dotnet format --verify-no-changes
+
+coverage:
+	dotnet test /p:CollectCoverage=true /p:CoverletOutput=coverage/ /p:CoverletOutputFormat=opencover
+	reportgenerator -reports:coverage/coverage.opencover.xml -targetdir:coveragereport
+
+
+## opening report generator in your browser
+xdg-open coveragereport/index.html

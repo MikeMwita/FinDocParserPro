@@ -2,6 +2,7 @@
 using FinDoc.Application.Invoices.Commands.UploadScan;
 using FinDoc.Application.Interfaces;
 using FinDoc.Infrastructure.OCR;
+using FinDoc.Api.Endpoints.Invoices;
 
 
 var builder = WebApplication.CreateBuilder(args);
