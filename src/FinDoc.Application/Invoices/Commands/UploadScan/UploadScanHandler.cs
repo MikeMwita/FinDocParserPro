@@ -20,8 +20,17 @@ public class UploadScanHandler
             return Result.Fail("Uploaded file is empty or null");
 
         var extractedText = await _ocr.ExtractTextAsync(request.File);
-        var response = new HttpDataResponse { Success = true, Data = extractedText };
+
+        var sanitizedText = Sanitizer.Sanitize(extractedText);
+
+        Console.WriteLine("[OCR Raw]: " + extractedText);
+        Console.WriteLine("[Sanitized]: " + sanitizedText);
+
+        var response = new HttpDataResponse
+        {
+            Success = true,
+            Data = sanitizedText
+        };
 
         return Result.Ok(response);
     }
-}
